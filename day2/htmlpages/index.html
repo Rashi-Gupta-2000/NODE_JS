@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+
+    <body align="center" style="background-color:powderblue;">
+
+        <h1>Registration Form</h1><hr><br>
+        <form action="/done" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name" required><br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required><br><br>
+        
+            <label for="psw">Password:</label>
+            <input type="password" placeholder="Enter Password" required><br><br>
+
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="a"/> 
+            <label for="male">Male</label> 
+            <input type="radio" name="a"/>
+            <label for="female">Female</label> 
+            <input type="radio" name="a"/> 
+            <label for="male">Others</label> 
+
+            <br><br>
+
+            <label for="Phone">Phone Number:</label>
+            <select name="number" id="number">
+                <option value="India">India(+91)</option>
+                <option value="US">US()</option>
+                <option value="UK">UK()</option>
+                <option value="Germany">Germany()</option>
+            </select>
+            <input type="text" placeholder="Enter 10 digit number" pattern="^\d{10}$" required>
+                                                              <!-- pattern="^[0-9]{10}$" -->
+            <br><br>
+
+            <label for="course">Courses:</label>
+            <input type="checkbox">
+            <label>C++</label>
+            <input type="checkbox">
+            <label>HTML</label>
+            <input type="checkbox">
+            <label>CSS</label>
+            <input type="checkbox">
+            <label>SQL</label>
+            <input type="checkbox">
+            <label>JS</label>
+            <input type="checkbox">
+            <label>AWS</label>
+
+
+            <br><br>
+
+            <input type="submit" value="Register">
+            <!-- <button type="submit">submit</button> -->
+        </form>
+        <!--
+            Tags:
+                - html
+                - head
+                - body
+                - h1 to h6
+                - p = paragraph 
+                - comment: 
+                    multi line: 
+                - img = image
+                src = source (path)
+                height
+                width 
+                - table
+                - list:
+                ol
+                ul
+                - header
+                - footer
+                - div
+                - audio
+                src
+                - video
+                src
+                - button
+                - input
+                - label
+                - radio
+                - checkbox
+                - text
+                - password
+            W3 VALIDATOR
+        -->
+    </body>
+</html>
